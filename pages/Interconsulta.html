@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Utilização – Parecer / Interconsulta | Sistema MV</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="pg-interconsulta">
+
+    <div class="header">
+        <h1>Manual de Utilização – Parecer / Interconsulta</h1>
+        <p class="subtitle">Sistema MV | Central de Parecer</p>
+        <span class="badge">SUTCS / NUGIN / CODEV</span>
+    </div>
+
+    <div class="container">
+        <a href="#top" id="botao-topo" title="Voltar ao Topo">↑</a>
+
+        <!-- INTRODUÇÃO -->
+        <div class="card">
+            <div class="card-header">
+                <span class="icon"></span>
+                <h2>Introdução</h2>
+            </div>
+            <div class="card-body">
+                <p>
+                    Este manual orienta o fluxo de trabalho do <strong>Parecer / Interconsulta</strong> 
+                    no Sistema MV. O processo inicia-se com a solicitação de parecer pelas unidades de 
+                    assistência, que registram a demanda diretamente na tela do sistema MV. O médico 
+                    especialista acessa o painel da Central de Parecer para visualizar as pendências 
+                    e responder às solicitações <strong>diretamente no sistema MV</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- FUNCIONALIDADES DO PAINEL -->
+        <div class="card">
+            <div class="card-header">
+                <span class="icon"></span>
+                <h2>Painel da Central de Parecer</h2>
+            </div>
+            <div class="card-body">
+                <p class="mb-15">O painel da Central de Parecer oferece as seguintes funcionalidades:</p>
+                <ul class="list-plain">
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Parecer Pendente por Setor</strong> – gráfico com a quantidade de pendências por unidade/setor
+                    </li>
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Parecer Pendente por Especialidade</strong> – gráfico com a quantidade de pendências por especialidade médica
+                    </li>
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Matriz de Parecer</strong> – tabela detalhada com empresa, setor, paciente, CPF, SAME, leito, prioridade, especialidade e data da solicitação
+                    </li>
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Tempo médio de espera</strong> – indicador geral de tempo pendente
+                    </li>
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Coluna de prioridade de classificação</strong> – para identificar urgências
+                    </li>
+                    <li>
+                        <span class="list-icon">✅</span>
+                        <strong>Tooltip interativo</strong> – ao passar o mouse sobre a solicitação, exibe descrição detalhada
+                    </li>
+                </ul>
+                <div class="screenshot">
+                    📊 Painel da Central de Parecer
+                    <div class="label">Visualização dos gráficos de pendência por setor e especialidade + Matriz de Parecer</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PASSO A PASSO -->
+        <div class="card">
+            <div class="card-header">
+                <span class="icon"></span>
+                <h2>Fluxo de Trabalho – Passo a Passo</h2>
+            </div>
+            <div class="card-body">
+
+                <!-- Passo 1 -->
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Solicitação pela Unidade</h3>
+                        <p>
+                            A assistência das unidades solicita o parecer pela tela do sistema MV, 
+                            registrando a demanda que será direcionada à <strong>especialidade responsável</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Passo 2 -->
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Acesso ao Painel da Central de Parecer</h3>
+                        <p>
+                            O médico especialista deve acessar primeiro o painel da Central de Parecer 
+                            pelo link abaixo, utilizando as credenciais do painel. Após o login, será 
+                            redirecionado ao painel da <strong>Central de Parecer</strong>.
+                        </p>
+                        <div class="credentials">
+                            <h4>🔐 Credenciais de Acesso – Painel Central de Parecer</h4>
+                            <div class="credentials-grid">
+                                <div class="credential-item">
+                                    <label>Link de Acesso</label>
+                                    <div class="value">https://indicadores.igesdf.org.br/login</div>
+                                </div>
+                                <div class="credential-item">
+                                    <label>Usuário</label>
+                                    <div class="value">interconsulta.igesdf</div>
+                                </div>
+                                <div class="credential-item">
+                                    <label>Senha</label>
+                                    <div class="value">interconsulta@igesdf.2026</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Passo 3 -->
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Filtrar por Especialidade</h3>
+                        <p>
+                            No painel, localize o campo <strong>"ESPECIALIDADE"</strong> no topo da tela. 
+                            Cada médico deve <strong>filtrar sua própria especialidade</strong> para 
+                            visualizar apenas as solicitações pertinentes ao seu campo de atuação.
+                        </p>
+                        <div class="alert alert-warning">
+                            <span class="alert-icon">⚠️</span>
+                            <div>
+                                <strong>Atenção:</strong> Cada especialidade deverá filtrar no campo 
+                                <strong>"Especialidade"</strong> para visualizar apenas suas pendências.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Passo 4 -->
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Verificar Unidade e Acessar o MV</h3>
+                        <p>
+                            Na Matriz de Parecer, verifique em qual <strong>unidade</strong> o paciente 
+                            encontra-se internado (coluna <strong>"EMPRESA"</strong>). Em seguida, 
+                            acesse o sistema MV e faça o <strong>login com suas credenciais pessoais</strong>, 
+                            entrando na empresa correspondente à unidade de internação do paciente.
+                        </p>
+                        <div class="alert alert-info">
+                            <span class="alert-icon">ℹ️</span>
+                            <div>
+                                A coluna <strong>"EMPRESA"</strong> na Matriz de Parecer indica a unidade 
+                                de internação do paciente (ex: Hospital de Base Distrito Federal, 
+                                Hospital Regional de Santa Maria, etc.).
+                            </div>
+                        </div>
+                        <div class="alert alert-warning">
+                            <span class="alert-icon"></span>
+                            <div>
+                                <strong>Importante:</strong> O login no sistema MV é realizado com as 
+                                <strong>credenciais pessoais</strong> do médico especialista (usuário e senha 
+                                individuais), e não com as credenciais do painel.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Passo 5 -->
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Responder o Parecer</h3>
+                        <p>
+                            No prontuário eletrônico do paciente, navegue até a <strong>aba "Parecer"</strong> 
+                            e registre a resposta ao parecer solicitado. Preencha todas as informações 
+                            clínicas necessárias e finalize o registro.
+                        </p>
+                        <div class="alert alert-danger">
+                            <span class="alert-icon">🚨</span>
+                            <div>
+                                <strong>Atenção – Campo Correto:</strong> A resposta deve ser registrada 
+                                <strong>exclusivamente na aba "Parecer"</strong> do prontuário. 
+                                <strong>Não utilize</strong> os campos de <strong>"Evolução"</strong>, 
+                                <strong>"Anamnese"</strong> ou outros campos para responder ao parecer. 
+                                Registros em campos incorretos <strong>não removerão a pendência</strong> 
+                                do painel da Central de Parecer.
+                            </div>
+                        </div>
+                        <div class="alert alert-success">
+                            <span class="alert-icon">✅</span>
+                            <div>
+                                <strong>Resultado:</strong> Após o registro do parecer corretamente na 
+                                aba de Parecer, a pendência será <strong>automaticamente removida</strong> 
+                                do painel da Central de Parecer, atualizando os gráficos em tempo real.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RESUMO DO FLUXO -->
+        <div class="card">
+            <div class="card-header">
+                <span class="icon">🔄</span>
+                <h2>Resumo do Fluxo de Trabalho</h2>
+            </div>
+            <div class="card-body">
+                <table class="info-table">
+                    <thead>
+                        <tr>
+                            <th>Etapa</th>
+                            <th>Responsável</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Assistência da Unidade</td>
+                            <td>Solicita parecer pela tela do sistema MV</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Médico Especialista</td>
+                            <td>Acessa o painel da Central de Parecer (indicadores.igesdf.org.br)</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Médico Especialista</td>
+                            <td>Filtra sua especialidade no campo "Especialidade"</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Médico Especialista</td>
+                            <td>Verifica a unidade do paciente e faz login no MV com suas credenciais pessoais</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Médico Especialista</td>
+                            <td>Responde o parecer na aba "Parecer" do prontuário no sistema MV</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Sistema (automático)</td>
+                            <td>Pendência é removida do painel da Central de Parecer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- INFORMAÇÕES COMPLEMENTARES -->
+        <div class="card">
+            <div class="card-header">
+                <span class="icon">📌</span>
+                <h2>Informações Complementares</h2>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-danger">
+                    <span class="alert-icon">🔒</span>
+                    <div>
+                        <strong>Segurança:</strong> Mantenha suas credenciais pessoais do MV em local seguro. 
+                        Não compartilhe usuário e senha com terceiros.
+                    </div>
+                </div>
+                <div class="alert alert-warning">
+                    <span class="alert-icon">⏱️</span>
+                    <div>
+                        <strong>Prioridade:</strong> Priorize pareceres com <strong>maior tempo de solicitação</strong> 
+                        e/ou casos com <strong>urgência sinalizados pela gestão</strong>. Observe a coluna de 
+                        prioridade e o tempo médio de espera exibidos no painel.
+                    </div>
+                </div>
+                <div class="alert alert-info">
+                    <span class="alert-icon">💡</span>
+                    <div>
+                        <strong>Dica:</strong> Utilize o tooltip (passe o mouse sobre a solicitação) 
+                        para obter informações detalhadas sem precisar abrir o prontuário.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Manual de Utilização – Parecer / Interconsulta</strong></p>
+            <p>Sistema MV | SUTCS / NUGIN – IGESDF</p>
+            <p>Atualizado em 29/07/2026</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
